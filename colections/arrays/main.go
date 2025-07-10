@@ -7,6 +7,7 @@ func main () {
 	var array2 = [...]int{1,2,3,4,5}
 	array[1] = 15 
 	fmt.Println(array, array2)
+
 	for i:=0; i < len(array); i++ {
 		fmt.Println(array[i])
 	}
